@@ -1,4 +1,4 @@
-add_rules("mode.debug", "mode.release")
+add_rules("mode.debug", "mode.release", "mode.releasedbg")
 target("ExceptionStackInformationTracking")
     set_kind("binary")
     add_files("src/*.cpp")
